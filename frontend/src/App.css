@@ -1,0 +1,40 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.repo-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: left;
+  transition: box-shadow 0.3s;
+}
+
+.repo-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.repo-item h2 {
+  margin: 0;
+  color: #0366d6;
+}
+
+.repo-item p {
+  margin: 5px 0;
+  color: #555;
+}
