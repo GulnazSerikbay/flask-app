@@ -39,7 +39,7 @@ function App() {
       <ul>
         {repos.map((repo) => (
           <li key={repo.full_name} className="repo-item">
-            <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+            <a href={repo.html_url} rel="noopener noreferrer">
               <h2>{repo.full_name}</h2>
             </a>
             <p>{repo.description}</p>
