@@ -17,7 +17,7 @@ def get_top_repositories():
     }
 
     headers = {
-        'Accept': 'application/vnd.github.v3+json'
+        'Accept': 'application/vnd.github+json'
     }
 
     # send a req to github API

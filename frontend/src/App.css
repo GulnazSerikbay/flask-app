@@ -25,9 +25,6 @@ ul {
   transition: box-shadow 0.3s;
 }
 
-.repo-item:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 .repo-item h2 {
   margin: 0;
